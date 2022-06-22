@@ -26,7 +26,7 @@ let handler = async (m, { conn }) => {
     last.times.irq += cpu.times.irq
     return last
   }, {
-    speed: 0,
+    speed: 3000,
     total: 0,
     times: {
       user: 0,
